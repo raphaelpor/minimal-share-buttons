@@ -1,6 +1,6 @@
 /*
 * Minimal Share Buttns
-* version: 0.0.1
+* version: 0.0.2
 * Author: Raphael P. de Freitas
 * Github: github.com/raphaelpor
 * Linkedin: br.linkedin.com/in/raphaelpor/pt
@@ -37,33 +37,43 @@
 
 /* Twitter */
 .minshare_bt_twt {
-    outline: 2px solid #55acee;
     color:#55acee;
+    outline: 2px solid #55acee;
 }
 .minshare_bt_twt:hover {
-    background:#55acee
+    background:#55acee;
+    outline: 2px solid #55acee;
 }
 
 /* Facebook */
 .minshare_bt_fb {
-    outline-color:#3b5998;
     color:#3b5998;
+    outline: 2px solid #3b5998;
 }
-.minshare_bt_fb:hover {background:#3b5998;}
+.minshare_bt_fb:hover {
+    background:#3b5998;
+    outline: 2px solid #3b5998;
+}
 
 /* Google+ */
 .minshare_bt_gg {
-    outline-color:#d73d32;
     color:#d73d32;
+    outline: 2px solid #d73d32;
 }
-.minshare_bt_gg:hover {background:#d73d32}
+.minshare_bt_gg:hover {
+    background:#d73d32;
+    outline: 2px solid #d73d32;
+}
 
 /* Pinterest */
 .minshare_bt_pin {
-    outline-color:#e3262e;
     color:#e3262e;
+    outline: 2px solid #e3262e;
 }
-.minshare_bt_pin:hover {background:#e3262e}
+.minshare_bt_pin:hover {
+    background:#e3262e;
+    outline: 2px solid #e3262e;
+}
 
 /* Reponsible */
 @media screen and (max-width: 500px) {
