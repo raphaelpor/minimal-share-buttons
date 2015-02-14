@@ -79,7 +79,7 @@
 @media screen and (max-width: 500px) {
     .minshare_bt {text-align:center;}
     .minshare_bt span {display:none;}
-    a:before {
+    minshare_bt:before {
         margin-right:0;
         font-size:17px;
     }
