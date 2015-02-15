@@ -1,11 +1,10 @@
 /*
 * Minimal Share Buttns
-* version: 0.0.2
+* version: 0.0.3
 * Author: Raphael P. de Freitas
 * Github: github.com/raphaelpor
 * Linkedin: br.linkedin.com/in/raphaelpor/pt
 */
-
 
 /* Icons */
 .minshare_bt:before {
@@ -27,7 +26,7 @@
     -ms-transition: all 300ms ease;
     -o-transition: all 300ms ease;
     transition: all 300ms ease;
-    font-size: 13px;
+    font-size: 15px;
 }
 .minshare_bt:hover {
     color:#fff;
