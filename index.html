@@ -6,7 +6,7 @@
 		<title>Minimal Share Buttons</title>
 		<meta name="generator" content="Bootply" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.2/cerulean/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 		<!--[if lt IE 9]>
 			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -15,46 +15,66 @@
         <link rel="stylesheet" type="text/css" href="share-bts.css">
 	</head>
 	<body>
-        <div class="container">
-            <div class="jumbotron text-center">
+        <header class="jumbotron">
+            <div class="page-header text-center">
                 <h1>Minimal Share Buttons</h1>
+            </div>
+            <div class="text-center">
                 <p class="lead">Minimal html/css needed to have a cool share buttons without any third part Javascript.</p>
                 <a href="#" target="_blank" class="minshare_bt minshare_bt_twt fa fa-twitter"><span>Twitter</span></a>
         <a href="#" target="_blank" class="minshare_bt minshare_bt_fb fa fa-facebook"><span>Facebook</span></a>
         <a href="#" target="_blank" class="minshare_bt minshare_bt_gg fa fa-google"><span>Google+</span></a>
         <a href="#" target="_blank" class="minshare_bt minshare_bt_pin fa fa-pinterest-p"><span>Pinterest</span></a>
             </div>
-
+        </header>
+        
+        <div class="col-lg-12">
             <div class="row">
-                <div class="col-lg-6">
-                    <h4>Mobile First</h4>
-                    <p>Responsive by default, and a clean "flat" design.</p>
+                <div class="col-lg-12">
+                    <h2>Usage</h2>
+                    <hr>
+                    <p>Just add the folling code to your HTML file:</p>
 
-                    <h4>Powerful Grid</h4>
-                    <p>3 responsive grid sizes to control the grid layout on tiny, small and large displays.</p>
-                </div>
+                    <pre><code>&lt;a href="#" target="_blank" class="minshare_bt minshare_bt_twt fa fa-twitter"&gt;
+  &lt;span&gt;Twitter&lt;/span&gt;
+&lt;/a&gt;
+&lt;a href="#" target="_blank" class="minshare_bt minshare_bt_twt fa fa-twitter"&gt;
+  &lt;span&gt;Twitter&lt;/span&gt;
+&lt;/a&gt;
+&lt;a href="#" target="_blank" class="minshare_bt minshare_bt_twt fa fa-twitter"&gt;
+  &lt;span&gt;Twitter&lt;/span&gt;
+&lt;/a&gt;
+&lt;a href="#" target="_blank" class="minshare_bt minshare_bt_twt fa fa-twitter"&gt;
+  &lt;span&gt;Twitter&lt;/span&gt;
+&lt;/a&gt;</code></pre>
+                    <p>And add the CSS:</p>
 
-                <div class="col-lg-6">
-                    <h4>New Elements</h4>
-                    <p>New panels, list groups, glyphicons and justified navigation.</p>
-
-                    <h4>Less Bloat</h4>
-                    <p>The optimized CSS is in a single file. Glyphicons are now separate.</p>
+                    <pre><code>&lt;!-- Minimal Share Buttons --&gt;
+&lt;link rel="stylesheet" href="//raphaelpor.github.io/minimal-share-buttons/src/minsharebts.min.css"&gt;
+&lt;!-- Font Awesome --&gt;
+&lt;link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"&gt;
+</code></pre>
                 </div>
             </div>
 
             <hr>
 
             <div class="jumbotron text-center">
-                <h2>Moving from Bootstrap 2.x to 3.0?</h2>
-                <p class="lead">Everything has changed, so you can't just replace the 2.x with the 3.0 files. The folks at Bootply, the Bootstrap Playground have created a migration guide to help.</p>
-                <p><a class="btn btn-large btn-success" href="http://www.bootply.com/bootstrap-3-migration-guide" target="ext">Migration Guide</a></p>
+                <h2>Help us...</h2>
+                    <a class="github-button" href="https://github.com/raphaelpor/minimal-share-buttons" data-icon="octicon-eye" data-style="mega">Watch</a>
+                    <a class="github-button" href="https://github.com/raphaelpor/minimal-share-buttons" data-icon="octicon-star" data-style="mega">Star</a>
+                    <a class="github-button" href="https://github.com/raphaelpor/minimal-share-buttons" data-icon="octicon-git-branch" data-style="mega">Fork</a>
+                <h3>And share! :)</h3>
+                <a href="#" target="_blank" class="minshare_bt minshare_bt_twt fa fa-twitter"><span>Twitter</span></a>
+                <a href="#" target="_blank" class="minshare_bt minshare_bt_fb fa fa-facebook"><span>Facebook</span></a>
+                <a href="#" target="_blank" class="minshare_bt minshare_bt_gg fa fa-google"><span>Google+</span></a>
             </div>
 
         </div>
         
         <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
+        <script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
     
     </body>
 
