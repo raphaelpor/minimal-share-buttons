@@ -1,9 +1,7 @@
 /*
 * Minimal Share Buttns
-* version: 0.0.4
-* Author: Raphael P. de Freitas
-* Github: github.com/raphaelpor
-* Linkedin: br.linkedin.com/in/raphaelpor/pt
+* version: 0.0.5
+* Github: github.com/raphaelpor/minimal-share-buttons
 */
 
 /* Icons */
@@ -29,51 +27,80 @@
     outline-offset: 0;
 }
 
-/* Twitter */
-.minshare_bt_twt, .minshare_bt_twt:active, .minshare_bt_twt:visited, .minshare_bt_twt:focus {
-    color:#55acee;
-    outline: 2px solid #55acee;
-}
-.minshare_bt_twt:hover {
-    background:#55acee;
-    outline: 2px solid #55acee;
-}
+    /* Twitter */
+    .minshare_bt_twt, .minshare_bt_twt:active, .minshare_bt_twt:visited, .minshare_bt_twt:focus {
+        color:#55acee;
+        outline: 2px solid #55acee;
+    }
+    .minshare_bt_twt:hover {
+        background:#55acee;
+        outline: 2px solid #55acee;
+    }
 
-/* Facebook */
-.minshare_bt_fb, .minshare_bt_fb:active, .minshare_bt_fb:visited, .minshare_bt_fb:focus {
-    color:#3b5998;
-    outline: 2px solid #3b5998;
-}
-.minshare_bt_fb:hover {
-    background:#3b5998;
-    outline: 2px solid #3b5998;
-}
+    /* Facebook */
+    .minshare_bt_fb, .minshare_bt_fb:active, .minshare_bt_fb:visited, .minshare_bt_fb:focus {
+        color:#3b5998;
+        outline: 2px solid #3b5998;
+    }
+    .minshare_bt_fb:hover {
+        background:#3b5998;
+        outline: 2px solid #3b5998;
+    }
 
-/* Google+ */
-.minshare_bt_gg, .minshare_bt_gg:active, .minshare_bt_gg:visited, .minshare_bt_gg:focus {
-    color:#d73d32;
-    outline: 2px solid #d73d32;
-}
-.minshare_bt_gg:hover {
-    background:#d73d32;
-    outline: 2px solid #d73d32;
-}
+    /* Google+ */
+    .minshare_bt_gg, .minshare_bt_gg:active, .minshare_bt_gg:visited, .minshare_bt_gg:focus {
+        color:#d73d32;
+        outline: 2px solid #d73d32;
+    }
+    .minshare_bt_gg:hover {
+        background:#d73d32;
+        outline: 2px solid #d73d32;
+    }
 
-/* Pinterest */
-.minshare_bt_pin, .minshare_bt_pin:active, .minshare_bt_pin:visited, .minshare_bt_pin:focus {
-    color:#e3262e;
-    outline: 2px solid #e3262e;
-}
-.minshare_bt_pin:hover {
-    background:#e3262e;
-    outline: 2px solid #e3262e;
-}
+    /* Pinterest */
+    .minshare_bt_pin, .minshare_bt_pin:active, .minshare_bt_pin:visited, .minshare_bt_pin:focus {
+        color:#e3262e;
+        outline: 2px solid #e3262e;
+    }
+    .minshare_bt_pin:hover {
+        background:#e3262e;
+        outline: 2px solid #e3262e;
+    }
 
+    .minshare_bt:hover {
+        color:#fff;
+        text-decoration: none;
+    }
 
-.minshare_bt:hover {
+/* white theme */
+.minshare_bt.minshare_bt_wht, .minshare_bt.minshare_bt_wht:active, .minshare_bt.minshare_bt_wht:visited, .minshare_bt.minshare_bt_wht:focus {
     color:#fff;
-    text-decoration: none;
+    outline: 2px solid #fff;
 }
+
+    .minshare_bt.minshare_bt_wht:hover {
+        background:#fff;
+    }
+
+    /* Twitter */
+    .minshare_bt_twt.minshare_bt_wht:hover {
+        color:#55acee;
+    }
+
+    /* Facebook */
+    .minshare_bt_fb.minshare_bt_wht:hover {
+        color:#3b5998;
+    }
+
+    /* Google+ */
+    .minshare_bt_gg.minshare_bt_wht:hover {
+        color:#d73d32;
+    }
+
+    /* Pinterest */
+    .minshare_bt_pin.minshare_bt_wht:hover {
+        color:#e3262e;
+    }
 
 /* Reponsible */
 @media screen and (max-width: 500px) {
