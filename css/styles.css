@@ -1,2 +1,18 @@
-body {color:#FDFDFD;background:#1B1B1B;font-family: Arial, Helvetica, sans-serif;}
-.jumbotron {color:#333;background:#FDFDFD;}
+body {
+	color:#333;
+	background:#fdfdfd;
+	font-family: Arial, Helvetica, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {color: #52c92e;}
+.jumbotron {
+	color:#fdfdfd;
+	background: #52c92e;
+	background: -moz-linear-gradient(-45deg,  #52c92e 0%, #52c92e 45%, #3d8712 100%);
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#52c92e), color-stop(45%,#52c92e), color-stop(100%,#3d8712));
+	background: -webkit-linear-gradient(-45deg,  #52c92e 0%,#52c92e 45%,#3d8712 100%);
+	background: -o-linear-gradient(-45deg,  #52c92e 0%,#52c92e 45%,#3d8712 100%);
+	background: -ms-linear-gradient(-45deg,  #52c92e 0%,#52c92e 45%,#3d8712 100%);
+	background: linear-gradient(135deg,  #52c92e 0%,#52c92e 45%,#3d8712 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#52c92e', endColorstr='#3d8712',GradientType=1 );
+}
+.jumbotron h2 {color:#fdfdfd;}
