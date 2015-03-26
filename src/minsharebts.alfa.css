@@ -1,6 +1,6 @@
 /*
 * Minimal Share Buttns (ALFA VERSION)
-* version: 0.0.6
+* version: 0.0.7
 * Github: github.com/raphaelpor/minimal-share-buttons
 */
 
@@ -119,6 +119,18 @@
     .minshare_bt_lin.minshare_bt_wht:hover {
         color:#2672ae;
     }
+    
+    /*Mobile Template*/
+    .minshare_bt.minshare_bt_mob {
+        text-align:center;
+        padding:.7em 2%;
+    }
+    .minshare_bt.minshare_bt_mob span {display:none;}
+    .minshare_bt.minshare_bt_mob:before {
+        margin-right:0;
+        font-size:17px;
+    }
+    
 
 /* Reponsible */
 @media screen and (max-width: 700px) {
