@@ -1,17 +1,17 @@
 /*
 * Minimal Share Buttns
-* version: 0.0.6
+* version: 1.0.0
 * Github: github.com/raphaelpor/minimal-share-buttons
 */
 
 /* Icons */
-.minshare_bt:before {
+.minshbt:before {
     margin-right:7px;
     font-size:15px;
 }
 
 /* Default link */
-.minshare_bt, .minshare_bt:active, .minshare_bt:visited, .minshare_bt:focus {
+.minshbt, .minshbt:active, .minshbt:visited, .minshbt:focus {
     background: transparent;
     width: 18%;
     display: inline-block;
@@ -30,105 +30,243 @@
 }
 
     /* Twitter */
-    .minshare_bt_twt, .minshare_bt_twt:active, .minshare_bt_twt:visited, .minshare_bt_twt:focus {
+    .minshbt_twt, .minshbt_twt:active, .minshbt_twt:visited, .minshbt_twt:focus {
         color:#55acee;
         border-color: #55acee;
     }
-    .minshare_bt_twt:hover {
+    .minshbt_twt:hover {
         background:#55acee;
         border-color: #55acee;
     }
+    .minshbt_twt:after {content:"Twitter"}
 
     /* Facebook */
-    .minshare_bt_fb, .minshare_bt_fb:active, .minshare_bt_fb:visited, .minshare_bt_fb:focus {
+    .minshbt_fb, .minshbt_fb:active, .minshbt_fb:visited, .minshbt_fb:focus {
         color:#3b5998;
         border-color: #3b5998;
     }
-    .minshare_bt_fb:hover {
+    .minshbt_fb:hover {
         background:#3b5998;
         border-color: #3b5998;
     }
+    .minshbt_fb:after {content:"Facebook"}
 
     /* Google+ */
-    .minshare_bt_gg, .minshare_bt_gg:active, .minshare_bt_gg:visited, .minshare_bt_gg:focus {
+    .minshbt_gg, .minshbt_gg:active, .minshbt_gg:visited, .minshbt_gg:focus {
         color:#d73d32;
         border-color: #d73d32;
     }
-    .minshare_bt_gg:hover {
+    .minshbt_gg:hover {
         background:#d73d32;
         border-color: #d73d32;
     }
+    .minshbt_gg:after {content:"Google+"}
 
     /* Pinterest */
-    .minshare_bt_pin, .minshare_bt_pin:active, .minshare_bt_pin:visited, .minshare_bt_pin:focus {
+    .minshbt_pin, .minshbt_pin:active, .minshbt_pin:visited, .minshbt_pin:focus {
         color:#e3262e;
         border-color: #e3262e;
     }
-    .minshare_bt_pin:hover {
+    .minshbt_pin:hover {
         background:#e3262e;
         border-color: #e3262e;
     }
+    .minshbt_pin:after {content:"Pinterest"}
 
     /* Linkedin */
-    .minshare_bt_lin, .minshare_bt_lin:active, .minshare_bt_lin:visited, .minshare_bt_lin:focus {
+    .minshbt_lin, .minshbt_lin:active, .minshbt_lin:visited, .minshbt_lin:focus {
         color:#2672ae;
         border-color: #2672ae;
     }
-    .minshare_bt_lin:hover {
+    .minshbt_lin:hover {
         background:#2672ae;
         border-color: #2672ae;
     }
-
-
-    .minshare_bt:hover {
-        color:#fff;
-        text-decoration: none;
+    .minshbt_lin:after {content:"Linkedin"}
+    
+    /* Reddit */
+    .minshbt_rdt, .minshbt_rdt:active, .minshbt_rdt:visited, .minshbt_rdt:focus {
+        color:#5f99cf;
+        border-color: #5f99cf;
     }
+    .minshbt_rdt:hover {
+        background:#5f99cf;
+        border-color: #5f99cf;
+    }
+    .minshbt_rdt:after {content:"Reddit"}
+    
+    /* Whatsapp */
+    .minshbt_wts, .minshbt_wts:active, .minshbt_wts:visited, .minshbt_wts:focus {
+        display:none;
+        color:#5cbe4a;
+        border-color: #5cbe4a;
+    }
+    .minshbt_wts:hover {
+        background:#5cbe4a;
+        border-color: #5cbe4a;
+    }
+    .minshbt_wts:after {content:"Whatsapp"}
+
+/* Social Links version */
+    /* Medium */
+    .minshbt_med, .minshbt_med:active, .minshbt_med:visited, .minshbt_med:focus {
+        color:#000;
+        border-color: #000;
+    }
+    .minshbt_med:hover {
+        background:#000;
+        border-color: #000;
+    }
+    .minshbt_med:after {content:"Medium"}
+
+    /* Youtube */
+    .minshbt_yt, .minshbt_yt:active, .minshbt_yt:visited, .minshbt_yt:focus {
+        color:#e36a65;
+        border-color: #e36a65;
+    }
+    .minshbt_yt:hover {
+        background:#e36a65;
+        border-color: #e36a65;
+    }
+    .minshbt_yt:after {content:"Youtube"}
+
+    /* RSS */
+    .minshbt_rss, .minshbt_rss:active, .minshbt_rss:visited, .minshbt_rss:focus {
+        color:#f28555;
+        border-color: #f28555;
+    }
+    .minshbt_rss:hover {
+        background:#f28555;
+        border-color: #f28555;
+    }
+    .minshbt_rss:after {content:"RSS"}
+
+    /* Instagram */
+    .minshbt_inst, .minshbt_inst:active, .minshbt_inst:visited, .minshbt_inst:focus {
+        color:#65a3e3;
+        border-color: #65a3e3;
+    }
+    .minshbt_inst:hover {
+        background:#65a3e3;
+        border-color: #65a3e3;
+    }
+    .minshbt_inst:after {content:"Instagram"}
+
+.minshbt:hover {
+    color:#fff;
+    text-decoration: none;
+}
 
 /* White theme */
-.minshare_bt.minshare_bt_wht, .minshare_bt.minshare_bt_wht:active, .minshare_bt.minshare_bt_wht:visited, .minshare_bt.minshare_bt_wht:focus {
+.minshbt.minshbt_wht, .minshbt.minshbt_wht:active, .minshbt.minshbt_wht:visited, .minshbt.minshbt_wht:focus {
     color:#fff;
     border-color: #fff;
 }
 
-    .minshare_bt.minshare_bt_wht:hover {
+    .minshbt.minshbt_wht:hover {
         background:#fff;
     }
 
     /* Twitter */
-    .minshare_bt_twt.minshare_bt_wht:hover {
+    .minshbt_twt.minshbt_wht:hover {
         color:#55acee;
     }
 
     /* Facebook */
-    .minshare_bt_fb.minshare_bt_wht:hover {
+    .minshbt_fb.minshbt_wht:hover {
         color:#3b5998;
     }
 
     /* Google+ */
-    .minshare_bt_gg.minshare_bt_wht:hover {
+    .minshbt_gg.minshbt_wht:hover {
         color:#d73d32;
     }
 
     /* Pinterest */
-    .minshare_bt_pin.minshare_bt_wht:hover {
+    .minshbt_pin.minshbt_wht:hover {
         color:#e3262e;
     }
 
     /* Linkedin */
-    .minshare_bt_lin.minshare_bt_wht:hover {
+    .minshbt_lin.minshbt_wht:hover {
         color:#2672ae;
+    }
+    
+    /* Medium */
+    .minshbt_med.minshbt_wht:hover {
+        color:#000;
+    }
+    
+    /* Youtube */
+    .minshbt_yt.minshbt_wht:hover {
+        color:#e36a65;
+    }
+    
+    /* RSS */
+    .minshbt_rss.minshbt_wht:hover {
+        color:#f28555;
+    }
+    
+    /* Instagram */
+    .minshbt_inst.minshbt_wht:hover {
+        color:#65a3e3;
+    }
+    
+    /* Whatsapp */
+    .minshbt_wts.minshbt_wht:hover {
+        color:#5cbe4a;
+    }
+    
+    /* Reddit */
+    .minshbt_rdt.minshbt_wht:hover {
+        color:#5f99cf;
+    }
+    
+/* Mobile Template */
+.minshbt.minshbt_m {
+    text-align:center;
+    padding:.7em 2%;
+    position:relative;
+}
+    .minshbt.minshbt_m:after {display:none;}
+    .minshbt.minshbt_m:before {
+        margin-right:0;
+        font-size:17px;
+    }
+    .minshbt.minshbt_m:hover:after {
+        display:block;
+        position:absolute;
+        top:-21px;
+        left:-2px;
+        color:#fff;
+        background:rgba(0,0,0,0.7);
+        padding:.2em;
+        font-size:13px;
     }
 
 /* Reponsible */
 @media screen and (max-width: 700px) {
-    .minshare_bt {
+    .minshbt {
         text-align:center;
         padding:.7em 2%;
+        position:relative;
     }
-    .minshare_bt span {display:none;}
-    .minshare_bt:before {
+    .minshbt:after {display:none;}
+    .minshbt:before {
         margin-right:0;
         font-size:17px;
+    }
+    .minshbt:hover:after {
+        display:block;
+        position:absolute;
+        top:-21px;
+        left:-2px;
+        color:#fff;
+        background:rgba(0,0,0,0.7);
+        padding:.2em;
+        font-size:13px;
+    }
+    .minshbt_wts {
+        display:block;
     }
 }
