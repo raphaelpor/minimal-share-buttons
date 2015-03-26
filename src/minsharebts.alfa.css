@@ -1,0 +1,134 @@
+/*
+* Minimal Share Buttns (ALFA VERSION)
+* version: 0.0.6
+* Github: github.com/raphaelpor/minimal-share-buttons
+*/
+
+/* Icons */
+.minshare_bt:before {
+    margin-right:7px;
+    font-size:15px;
+}
+
+/* Default link */
+.minshare_bt, .minshare_bt:active, .minshare_bt:visited, .minshare_bt:focus {
+    background: transparent;
+    width: 18%;
+    display: inline-block;
+    margin: 0 0 .5em 0.5%;
+    padding:1em 2%;
+    text-decoration: none;
+    font-size: 15px;
+    outline: 0;
+    border-width: 2px;
+    border-style: solid;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+    /* Twitter */
+    .minshare_bt_twt, .minshare_bt_twt:active, .minshare_bt_twt:visited, .minshare_bt_twt:focus {
+        color:#55acee;
+        border-color: #55acee;
+    }
+    .minshare_bt_twt:hover {
+        background:#55acee;
+        border-color: #55acee;
+    }
+
+    /* Facebook */
+    .minshare_bt_fb, .minshare_bt_fb:active, .minshare_bt_fb:visited, .minshare_bt_fb:focus {
+        color:#3b5998;
+        border-color: #3b5998;
+    }
+    .minshare_bt_fb:hover {
+        background:#3b5998;
+        border-color: #3b5998;
+    }
+
+    /* Google+ */
+    .minshare_bt_gg, .minshare_bt_gg:active, .minshare_bt_gg:visited, .minshare_bt_gg:focus {
+        color:#d73d32;
+        border-color: #d73d32;
+    }
+    .minshare_bt_gg:hover {
+        background:#d73d32;
+        border-color: #d73d32;
+    }
+
+    /* Pinterest */
+    .minshare_bt_pin, .minshare_bt_pin:active, .minshare_bt_pin:visited, .minshare_bt_pin:focus {
+        color:#e3262e;
+        border-color: #e3262e;
+    }
+    .minshare_bt_pin:hover {
+        background:#e3262e;
+        border-color: #e3262e;
+    }
+
+    /* Linkedin */
+    .minshare_bt_lin, .minshare_bt_lin:active, .minshare_bt_lin:visited, .minshare_bt_lin:focus {
+        color:#2672ae;
+        border-color: #2672ae;
+    }
+    .minshare_bt_lin:hover {
+        background:#2672ae;
+        border-color: #2672ae;
+    }
+
+
+    .minshare_bt:hover {
+        color:#fff;
+        text-decoration: none;
+    }
+
+/* White theme */
+.minshare_bt.minshare_bt_wht, .minshare_bt.minshare_bt_wht:active, .minshare_bt.minshare_bt_wht:visited, .minshare_bt.minshare_bt_wht:focus {
+    color:#fff;
+    border-color: #fff;
+}
+
+    .minshare_bt.minshare_bt_wht:hover {
+        background:#fff;
+    }
+
+    /* Twitter */
+    .minshare_bt_twt.minshare_bt_wht:hover {
+        color:#55acee;
+    }
+
+    /* Facebook */
+    .minshare_bt_fb.minshare_bt_wht:hover {
+        color:#3b5998;
+    }
+
+    /* Google+ */
+    .minshare_bt_gg.minshare_bt_wht:hover {
+        color:#d73d32;
+    }
+
+    /* Pinterest */
+    .minshare_bt_pin.minshare_bt_wht:hover {
+        color:#e3262e;
+    }
+
+    /* Linkedin */
+    .minshare_bt_lin.minshare_bt_wht:hover {
+        color:#2672ae;
+    }
+
+/* Reponsible */
+@media screen and (max-width: 700px) {
+    .minshare_bt {
+        text-align:center;
+        padding:.7em 2%;
+    }
+    .minshare_bt span {display:none;}
+    .minshare_bt:before {
+        margin-right:0;
+        font-size:17px;
+    }
+}
