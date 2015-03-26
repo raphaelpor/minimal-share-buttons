@@ -1,6 +1,6 @@
 /*
 * Minimal Share Buttns (ALFA VERSION)
-* version: 0.0.9
+* version: 0.0.10
 * Github: github.com/raphaelpor/minimal-share-buttons
 */
 
@@ -160,16 +160,27 @@
         color:#2672ae;
     }
     
-    /*Mobile Template*/
-    .minshare_bt.minshare_bt_mob {
-        text-align:center;
-        padding:.7em 2%;
-    }
-    .minshare_bt.minshare_bt_mob span {display:none;}
-    .minshare_bt.minshare_bt_mob:before {
-        margin-right:0;
-        font-size:17px;
-    }
+/*Mobile Template*/
+.minshare_bt.minshare_bt_mob {
+    text-align:center;
+    padding:.7em 2%;
+    position:relative;
+}
+.minshare_bt.minshare_bt_mob span {display:none;}
+.minshare_bt.minshare_bt_mob:before {
+    margin-right:0;
+    font-size:17px;
+}
+.minshare_bt.minshare_bt_mob:hover span {
+    display:block;
+    position:absolute;
+    top:-21px;
+    left:-2px;
+    color:#fff;
+    background:rgba(0,0,0,0.7);
+    padding:.2em;
+    font-size:13px;
+}
     
 
 /* Reponsible */
@@ -177,10 +188,21 @@
     .minshare_bt {
         text-align:center;
         padding:.7em 2%;
+        position:relative;
     }
     .minshare_bt span {display:none;}
     .minshare_bt:before {
         margin-right:0;
         font-size:17px;
+    }
+    .minshare_bt:hover span {
+        display:block;
+        position:absolute;
+        top:-21px;
+        left:-2px;
+        color:#fff;
+        background:rgba(0,0,0,0.7);
+        padding:.2em;
+        font-size:13px;
     }
 }
