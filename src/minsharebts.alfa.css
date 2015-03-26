@@ -1,6 +1,6 @@
 /*
 * Minimal Share Buttns (ALFA VERSION)
-* version: 0.0.10
+* version: 0.0.11
 * Github: github.com/raphaelpor/minimal-share-buttons
 */
 
@@ -158,6 +158,26 @@
     /* Linkedin */
     .minshare_bt_lin.minshare_bt_wht:hover {
         color:#2672ae;
+    }
+    
+    /* Medium */
+    .minshare_bt_med.minshare_bt_wht:hover {
+        color:#000;
+    }
+    
+    /* Youtube */
+    .minshare_bt_yt.minshare_bt_wht:hover {
+        color:#e36a65;
+    }
+    
+    /* RSS */
+    .minshare_bt_rss.minshare_bt_wht:hover {
+        color:#f28555;
+    }
+    
+    /* Instagram */
+    .minshare_bt_inst.minshare_bt_wht:hover {
+        color:#65a3e3;
     }
     
 /*Mobile Template*/
