@@ -1,6 +1,6 @@
 /*
 * Minimal Share Buttns (ALFA VERSION)
-* version: 0.0.7
+* version: 0.0.8
 * Github: github.com/raphaelpor/minimal-share-buttons
 */
 
@@ -83,6 +83,46 @@
     .minshare_bt:hover {
         color:#fff;
         text-decoration: none;
+    }
+/* Social Links version */
+    /* Medium */
+    .minshare_bt_med, .minshare_bt_med:active, .minshare_bt_med:visited, .minshare_bt_med:focus {
+        color:#000;
+        border-color: #000;
+    }
+    .minshare_bt_med:hover {
+        background:#000;
+        border-color: #000;
+    }
+
+    /* Youtube */
+    .minshare_bt_yt, .minshare_bt_yt:active, .minshare_bt_yt:visited, .minshare_bt_yt:focus {
+        color:#e36a65;
+        border-color: #e36a65;
+    }
+    .minshare_bt_yt:hover {
+        background:#e36a65;
+        border-color: #e36a65;
+    }
+
+    /* RSS */
+    .minshare_bt_rss, .minshare_bt_rss:active, .minshare_bt_rss:visited, .minshare_bt_rss:focus {
+        color:#f28555;
+        border-color: #f28555;
+    }
+    .minshare_bt_rss:hover {
+        background:#f28555;
+        border-color: #f28555;
+    }
+
+    /* Instagram */
+    .minshare_bt_inst, .minshare_bt_inst:active, .minshare_bt_inst:visited, .minshare_bt_inst:focus {
+        color:#65a3e3;
+        border-color: #65a3e3;
+    }
+    .minshare_bt_inst:hover {
+        background:#65a3e3;
+        border-color: #65a3e3;
     }
 
 /* White theme */
