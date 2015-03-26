@@ -1,6 +1,6 @@
 /*
 * Minimal Share Buttns (ALFA VERSION)
-* version: 0.0.8
+* version: 0.0.9
 * Github: github.com/raphaelpor/minimal-share-buttons
 */
 
@@ -79,11 +79,6 @@
         border-color: #2672ae;
     }
 
-
-    .minshare_bt:hover {
-        color:#fff;
-        text-decoration: none;
-    }
 /* Social Links version */
     /* Medium */
     .minshare_bt_med, .minshare_bt_med:active, .minshare_bt_med:visited, .minshare_bt_med:focus {
@@ -124,6 +119,11 @@
         background:#65a3e3;
         border-color: #65a3e3;
     }
+
+.minshare_bt:hover {
+    color:#fff;
+    text-decoration: none;
+}
 
 /* White theme */
 .minshare_bt.minshare_bt_wht, .minshare_bt.minshare_bt_wht:active, .minshare_bt.minshare_bt_wht:visited, .minshare_bt.minshare_bt_wht:focus {
