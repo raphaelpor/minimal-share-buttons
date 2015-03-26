@@ -1,6 +1,6 @@
 /*
 * Minimal Share Buttns (ALFA VERSION)
-* version: 0.0.11
+* version: 0.0.12
 * Github: github.com/raphaelpor/minimal-share-buttons
 */
 
@@ -77,6 +77,16 @@
     .minshare_bt_lin:hover {
         background:#2672ae;
         border-color: #2672ae;
+    }
+    
+    /* Whatsapp */
+    .minshare_bt_wts, .minshare_bt_wts:active, .minshare_bt_wts:visited, .minshare_bt_wts:focus {
+        color:#5cbe4a;
+        border-color: #5cbe4a;
+    }
+    .minshare_bt_wts:hover {
+        background:#5cbe4a;
+        border-color: #5cbe4a;
     }
 
 /* Social Links version */
@@ -178,6 +188,11 @@
     /* Instagram */
     .minshare_bt_inst.minshare_bt_wht:hover {
         color:#65a3e3;
+    }
+    
+    /* Whatsapp */
+    .minshare_bt_wts.minshare_bt_wht:hover {
+        color:#5cbe4a;
     }
     
 /*Mobile Template*/
