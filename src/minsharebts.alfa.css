@@ -81,6 +81,7 @@
     
     /* Whatsapp */
     .minshare_bt_wts, .minshare_bt_wts:active, .minshare_bt_wts:visited, .minshare_bt_wts:focus {
+        display:none;
         color:#5cbe4a;
         border-color: #5cbe4a;
     }
@@ -239,5 +240,8 @@
         background:rgba(0,0,0,0.7);
         padding:.2em;
         font-size:13px;
+    }
+    .minshare_bt_wts {
+        display:block;
     }
 }
